@@ -1,1 +1,1 @@
-module.exports = () => console.log('bye bye');
+module.exports.beforeShutdown = () => console.log('bye bye');
